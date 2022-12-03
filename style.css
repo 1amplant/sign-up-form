@@ -131,11 +131,13 @@ header[class="sign-up-header"] p:last-child {
     background-color: #319b16;
 }
 
-.form-row input[type='text']:focus,
-.form-row input[type='email']:focus,
-.form-row input[type='tel']:focus,
-.form-row input[type='password']:focus {
-    border: 1px solid #0954ec;
-}
+
 
 /*Below is the css for validating the form*/
+
+.form-row input:valid {
+    border: 1px solid #8BC34A;
+    background-color: rgba(139, 195, 74, 0.25);
+  }
+
+
